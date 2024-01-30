@@ -1,6 +1,7 @@
 # Decodificador-de-Texto---Alura-Challenges-Oracle-ONE
 
-![image](https://github.com/LealDias/Decodificador-de-Texto---Alura-Challenges-Oracle-ONE/assets/70763447/e591a84c-9c5f-4355-8848-66f63ab94cd0)
+![image](https://github.com/LealDias/Decodificador-de-Texto---Alura-Challenges-Oracle-ONE/assets/70763447/e591a84c-9c5f-4355-8848-66f63ab94cd0) ![image](https://github.com/LealDias/Decodificador-de-Texto---Alura-Challenges-Oracle-ONE/assets/70763447/6898501d-3216-4539-bc08-cffb71ea4bce)
+
 
 
 ## Objetivo:
