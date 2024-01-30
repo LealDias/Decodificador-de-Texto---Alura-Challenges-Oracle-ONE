@@ -3,9 +3,13 @@
 ![image](https://github.com/LealDias/Decodificador-de-Texto---Alura-Challenges-Oracle-ONE/assets/70763447/e591a84c-9c5f-4355-8848-66f63ab94cd0) ![image](https://github.com/LealDias/Decodificador-de-Texto---Alura-Challenges-Oracle-ONE/assets/70763447/6898501d-3216-4539-bc08-cffb71ea4bce)
 
 
-
 ## Objetivo:
 
+Criptografador e Descriptografador de texto baseado em sistema próprio de criptografia. A interface foi desenvolvida de forma a ser amigável e que facilite a identificação das funcionalidades tais como:
+
+  1 - Botão de Copiar Textos;
+  2 - Botão de Criptografia de Descriptografia;
+  3 - Sistema de Validação de Texto.
 
 ## Tecnologias:
 
