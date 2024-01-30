@@ -8,8 +8,11 @@
 Criptografador e Descriptografador de texto baseado em sistema próprio de criptografia. A interface foi desenvolvida de forma a ser amigável e que facilite a identificação das funcionalidades tais como:
 
   1 - Botão de Copiar Textos;
+  
   2 - Botão de Criptografia de Descriptografia;
+  
   3 - Sistema de Validação de Texto.
+  
 
 ## Tecnologias:
 
