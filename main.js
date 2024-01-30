@@ -9,6 +9,7 @@ document.addEventListener('DOMContentLoaded', function() {
   
     encryptBtn.addEventListener('click', encryptText);
     decryptBtn.addEventListener('click', decryptText);
+    copyButton.addEventListener('click', copyText);
   
     function encryptText() {
       const originalText = textarea.value;
