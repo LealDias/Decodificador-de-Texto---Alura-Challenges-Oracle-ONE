@@ -77,11 +77,19 @@ document.addEventListener('DOMContentLoaded', function() {
   
     function copyText() {
       const textToCopy = resultContent.querySelector('p').innerText;
-  
-      navigator.clipboard.writeText(textToCopy).then(function() {
-        alert('Texto copiado com sucesso!');
-      }).catch(function(err) {
-        console.error('Erro ao copiar texto: ', err);
-      });
+    
+      const tempTextArea = document.createElement('textarea');
+      tempTextArea.value = textToCopy;
+      tempTextArea.style.position = 'fixed';
+      tempTextArea.style.opacity = 0;
+    
+      document.body.appendChild(tempTextArea);
+      tempTextArea.select();
+      document.execCommand('copy');
+      document.body.removeChild(tempTextArea);
+    
+      alert('Texto copiado com sucesso!');
     }
+
+
   });
