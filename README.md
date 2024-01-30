@@ -1,7 +1,7 @@
 # Decodificador-de-Texto---Alura-Challenges-Oracle-ONE
 
-"""cs
+'''cs
 
 Texto aqui
 
-"""
+'''
