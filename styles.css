@@ -1,0 +1,144 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 70vw;
+  background-color: #f0f0f0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.header img {
+  margin-right: 10px;
+  max-width: 30px; 
+  height: auto;
+}
+
+textarea {
+  width: 100%;
+  height: 790px;
+  margin-top: 10px;
+  resize: none;
+  border-radius: 10px;
+}
+
+.buttons {
+  margin-top: 10px;
+  text-align: center;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  width: 150px;
+  height: 40px;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+/* Características dos Botões */
+.encrypt-btn {
+  background-color: #0A3871;
+  color: #FFFFFF;
+  padding: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: 1px solid #0A3871;
+}
+
+.decrypt-btn {
+  background-color: #FFFFFF;
+  color: #0A3871;
+  padding: 10px;
+  cursor: pointer;
+  border: 1px solid #0A3871;
+}
+
+/* Magia dos Botões */
+.encrypt-btn:hover {
+  background-color: #0C4C92;
+}
+
+.decrypt-btn:hover {
+  background-color: #D3E0F5;
+}
+
+.output-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.output-box {
+  font-family: 'Inter', sans-serif;
+  width: 21.5vw;
+  margin-left: 55px;
+  margin-right: 25px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 160px 25px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  overflow-y: auto;
+  max-height: 800px;
+}
+
+
+.result-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.output-box p {
+  text-align: center;
+}
+
+.output-box .first-paragraph {
+  font-size: 29px;
+  font-weight: 700;
+}
+
+.output-box .second-paragraph {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.copy-button-container {
+  text-align: center;
+  position: absolute;
+  bottom: 11px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+
+
+/* Ajuste e Responsividade */
+@media (max-width: 600px) {
+  .container {
+    width: 90%; /* Ajuste para telas menores */
+  }
+
+  .output-box {
+    width: 100%;
+  }
+}

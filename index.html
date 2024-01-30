@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
+  <link rel="stylesheet" href="styles.css">
+  <title>Criptografia</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="/imgs/exclamation.png" alt="Ícone de exclamação">
+      <p>Apenas letras minusculas e sem acento</p>
+    </div>
+    <textarea placeholder="Digite o texto aqui"></textarea>
+    <div class="buttons">
+      <button class="encrypt-btn" onclick="encryptText()">Criptografar</button>
+      <button class="decrypt-btn" onclick="decryptText()">Descriptografar</button>
+    </div>
+  </div>
+
+  <div class="output-container">
+    <div class="output-box">
+      <div class="result-container">
+        <div class="result-content">
+          <!-- Conteúdo da mensagem aqui -->
+          <div class="tenor-gif-embed" data-postid="10026013946105382068" data-share-method="host" data-aspect-ratio="1" data-width="70%">
+            <a href="https://tenor.com/view/what-looking-penguin-crowd-watching-gif-10026013946105382068">What Looking Sticker</a>from 
+            <a href="https://tenor.com/search/what-stickers">What Stickers</a>
+          </div>
+          <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+          <p class="first-paragraph">Nenhuma Mensagem Encontrada</p>
+          <p class="second-paragraph">Digite um texto que você deseja criptografar ou descriptografar</p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="copy-button-container">
+      <button class="copy-button" onclick="copyText()" style="display: none;">Copiar Texto</button>
+    </div>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
