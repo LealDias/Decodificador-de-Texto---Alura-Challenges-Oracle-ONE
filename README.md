@@ -1,10 +1,17 @@
 # Decodificador-de-Texto---Alura-Challenges-Oracle-ONE
 
+## Objetivo:
+
+
+## Tecnologias:
+
 
 ## Como Acessar:
 
-'''cs
+Acesse o link abaixo:
 
-  ppp
-  
-'''
+https://lealdias.github.io/Decodificador-de-Texto---Alura-Challenges-Oracle-ONE/
+
+## Saídas:
+
+
